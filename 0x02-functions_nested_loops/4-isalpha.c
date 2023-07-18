@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the cod.
+ * _isalpha - Checks if a character is alphabetic.
  *
  * Return:Always 0.
  * int _isalpha(int c)
