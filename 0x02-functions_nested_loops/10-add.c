@@ -1,14 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ * add - Adds two integers.
+ * @num1: The first integer to be added.
+ * @num2: The second integer to be added.
+ *
+ * Return: The result of the addition.
  */
-void print_alphabet(void)
+int add(int num1, int num2)
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
-	_putchar('\n');
+	return (num1 + num2);
 }
